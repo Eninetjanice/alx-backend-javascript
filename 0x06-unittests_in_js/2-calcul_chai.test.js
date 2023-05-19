@@ -6,34 +6,34 @@ const calculateNumber = require('./2-calcul_chai');
 describe('calculateNumber', () => {
   describe('type == "SUM"', () => {
     it('should round and add two floating numbers', () => {
-      expect.strictEqual(calculateNumber('SUM', 2.49, 3.51)).to.equal(4);
+      expect(calculateNumber('SUM', 2.49, 3.51)).to.equal(6);
     });
     it('should round and add equal positive numbers', () => {
-      expect.strictEqual(calculateNumber('SUM', 2.0, 2.0)).to.equal(4);
+      expect(calculateNumber('SUM', 2.0, 2.0)).to.equal(4);
     });
 
     it('should round and add equal positive numbers with float', () => {
-      expect.strictEqual(calculateNumber('SUM', 2.3, 1.8)).to.equal(4);
+      expect(calculateNumber('SUM', 2.3, 1.8)).to.equal(4);
     });
 
     it('should round and add equal negative numbers', () => {
-      expect.strictEqual(calculateNumber('SUM', -2.0, -2.0)).to.equal(-4);
+      expect(calculateNumber('SUM', -2.0, -2.0)).to.equal(-4);
     });
 
     it('should round and add equal negative numbers with float', () => {
-      expect.strictEqual(calculateNumber('SUM', -2.3, -1.8)).to.equal(-4);
+      expect(calculateNumber('SUM', -2.3, -1.8)).to.equal(-4);
     });
 
     it('should round and add negative(a) and positive(b) numbers', () => {
-      expect.strictEqual(calculateNumber('SUM', -2.0, 2.0)).to.equal(0);
+      expect(calculateNumber('SUM', -2.0, 2.0)).to.equal(0);
     });
 
     it('should round and add positive(a) and negative(b) numbers', () => {
-      expect.strictEqual(calculateNumber('SUM', 2.0, -2.0)).to.equal(0);
+      expect(calculateNumber('SUM', 2.0, -2.0)).to.equal(0);
     });
 
     it('0 and 0', () => {
-      expect.strictEqual(calculateNumber('SUM', 0.0, 0.0)).to.equal(0);
+      expect(calculateNumber('SUM', 0.0, 0.0)).to.equal(0);
     });
   });
   
