@@ -1,0 +1,36 @@
+{
+  "name": "8-api",
+  "version": "1.0.0",
+  "description": "ALX project for learning basic integration test",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eninetjanice/alx-backend-javascript.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Janeth Eni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eninetjanice/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Eninetjanice/alx-backend-javascript/tree/main/0x06-unittests_in_js/8-api",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x",
+    "yarn": "0.x"
+  }
+}
