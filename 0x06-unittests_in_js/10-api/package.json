@@ -1,16 +1,18 @@
 {
   "name": "8-api",
   "version": "1.0.0",
-  "description": "ALX project for learning basic integration test",
+  "description": "ALX project for learning Deep equality and Post integration test",
   "main": "index.js",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "request": "^2.88.2",
     "sinon": "^15.1.0",
-    "request": "^2.88.0"
+    "body-paser": "^1.20.2"
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha"
@@ -27,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/Eninetjanice/alx-backend-javascript/issues"
   },
-  "homepage": "https://github.com/Eninetjanice/alx-backend-javascript/tree/main/0x06-unittests_in_js/8-api",
+  "homepage": "https://github.com/Eninetjanice/alx-backend-javascript/tree/main/0x06-unittests_in_js/10-api",
   "engines": {
     "node": "14.x",
     "npm": "6.x",
